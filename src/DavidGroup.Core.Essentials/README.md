@@ -78,4 +78,4 @@ Contributions of any size are appreciated!
 
 Distributed under the **MIT license**. See [License](https://github.com/david-group-solutions/essentials/blob/main/LICENSE.txt) for more information.
 
-Copyright © 2026 David Khachatryan (David Group Solutions)
+Copyright © 2025-2026 David Khachatryan (David Group Solutions)
