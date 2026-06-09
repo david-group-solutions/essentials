@@ -45,8 +45,8 @@ New samples are added continuously as more features are developed.
 
 ## 🚀 What I'm Most Proud Of
 
-One of the standout features of *DavidGroup.Core.Essentials* is its high-performance dynamic ordering query builder from string for LINQ and Entity Framework Core.
-It delivers over **2× faster** execution and cuts memory allocations in half compared to *System.Linq.Dynamic.Core*, making it ideal for high-load APIs and advanced pagination scenarios.
+One of the standout features of **DavidGroup.Core.Essentials** is its **high-performance** dynamic ordering query builder from string for LINQ and Entity Framework Core.
+It delivers over **2× faster** execution and **cuts memory allocations in half** compared to System.Linq.Dynamic.Core, making it ideal for high-load APIs and advanced pagination scenarios.
 
 ```
 BenchmarkDotNet v0.15.6, macOS 26.1 (25B78) [Darwin 25.1.0]
