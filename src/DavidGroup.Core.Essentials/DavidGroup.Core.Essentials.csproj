@@ -8,7 +8,7 @@
 
     <PropertyGroup>
         <PackageId>DavidGroup.Core.Essentials</PackageId>
-        <Version>1.0.0-develop.20</Version>
+        <Version>1.0.0-preview.1</Version>
         <Authors>David Khachatryan</Authors>
         <Company>David Group Solutions</Company>
         <Copyright>Copyright (c) 2025 David Khachatryan (David Group Solutions)</Copyright>
