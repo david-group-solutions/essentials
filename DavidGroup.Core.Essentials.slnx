@@ -1,0 +1,25 @@
+<Solution>
+  <Configurations>
+    <Platform Name="Any CPU" />
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/benchmarks/">
+    <Project Path="benchmarks/DavidGroup.Core.DataIO.Benchmarks/DavidGroup.Core.DataIO.Benchmarks.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/DavidGroup.Core.Essentials.CompleteSample/DavidGroup.Core.Essentials.CompleteSample.csproj" />
+  </Folder>
+  <Folder Name="/src/">
+    <Project Path="src/DavidGroup.Core.Auth/DavidGroup.Core.Auth.csproj" />
+    <Project Path="src/DavidGroup.Core.DataIO/DavidGroup.Core.DataIO.csproj" />
+    <Project Path="src/DavidGroup.Core.Essentials/DavidGroup.Core.Essentials.csproj" />
+    <Project Path="src/DavidGroup.Core.Pagination/DavidGroup.Core.Pagination.csproj" />
+    <Project Path="src/DavidGroup.Core.Results/DavidGroup.Core.Results.csproj" />
+    <Project Path="src/DavidGroup.Core.Swagger/DavidGroup.Core.Swagger.csproj" />
+    <Project Path="src/DavidGroup.Core.Utilities/DavidGroup.Core.Utilities.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/DavidGroup.Core.DataIO.Tests/DavidGroup.Core.DataIO.Tests.csproj" />
+  </Folder>
+</Solution>
