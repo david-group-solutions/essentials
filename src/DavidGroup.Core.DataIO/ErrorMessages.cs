@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.DataIO;
+namespace DavidGroup.Core.DataIO;
 
 /// <summary>
 /// Provides a collection of predefined error message identifiers.

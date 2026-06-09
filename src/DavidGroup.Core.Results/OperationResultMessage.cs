@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Results;
+namespace DavidGroup.Core.Results;
 
 /// <summary>
 /// Represents a single message associated with an <see cref="OperationResult"/>.

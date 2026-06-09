@@ -1,7 +1,7 @@
-using DavidStudio.Core.Auth.Filters;
+using DavidGroup.Core.Auth.Filters;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Auth.Attributes;
+namespace DavidGroup.Core.Auth.Attributes;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
 public class FreshAuthAttribute : TypeFilterAttribute

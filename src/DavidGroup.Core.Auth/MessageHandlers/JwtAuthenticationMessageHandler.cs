@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.Net.Http.Headers;
 
-namespace DavidStudio.Core.Auth.MessageHandlers;
+namespace DavidGroup.Core.Auth.MessageHandlers;
 
 /// <summary>
 /// A <see cref="DelegatingHandler"/> that adds the JWT authorization token

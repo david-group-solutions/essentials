@@ -1,7 +1,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace DavidStudio.Core.Utilities.Utilities;
+namespace DavidGroup.Core.Utilities.Utilities;
 
 /// <summary>
 /// Provides functionality to generate random alphanumeric codes using a Base62 character set.

@@ -1,11 +1,11 @@
 using System.Linq.Dynamic.Core;
 using BenchmarkDotNet.Attributes;
-using DavidStudio.Core.DataIO.Benchmarks.Assets;
-using DavidStudio.Core.Pagination;
-using DavidStudio.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.DataIO.Benchmarks.Assets;
+using DavidGroup.Core.Pagination;
+using DavidGroup.Core.Pagination.InfiniteScroll;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.DataIO.Benchmarks.Repositories;
+namespace DavidGroup.Core.DataIO.Benchmarks.Repositories;
 
 [MemoryDiagnoser]
 [RankColumn]

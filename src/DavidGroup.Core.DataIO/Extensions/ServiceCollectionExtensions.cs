@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
-using DavidStudio.Core.DataIO.Interceptors;
-using DavidStudio.Core.DataIO.UnitOfWork.ADO.NET;
-using DavidStudio.Core.DataIO.UnitOfWork.EfCore;
+using DavidGroup.Core.DataIO.Interceptors;
+using DavidGroup.Core.DataIO.UnitOfWork.ADO.NET;
+using DavidGroup.Core.DataIO.UnitOfWork.EfCore;
 using Elastic.Clients.Elasticsearch;
 using Elastic.Transport;
 using Microsoft.EntityFrameworkCore;
@@ -13,7 +13,7 @@ using RedLockNet.SERedis;
 using RedLockNet.SERedis.Configuration;
 using StackExchange.Redis;
 
-namespace DavidStudio.Core.DataIO.Extensions;
+namespace DavidGroup.Core.DataIO.Extensions;
 
 /// <summary>
 /// Provides extension methods for <see cref="IServiceCollection"/>.

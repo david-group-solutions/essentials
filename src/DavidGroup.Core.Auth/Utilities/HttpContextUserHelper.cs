@@ -1,9 +1,9 @@
 using System.Security.Claims;
-using DavidStudio.Core.Auth.Data;
-using DavidStudio.Core.Auth.Enums;
-using DavidStudio.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Auth.Data;
+using DavidGroup.Core.Auth.Enums;
+using DavidGroup.Core.Auth.StronglyTypedIds;
 
-namespace DavidStudio.Core.Auth.Utilities;
+namespace DavidGroup.Core.Auth.Utilities;
 
 /// <summary>
 /// Provides extension methods for <see cref="ClaimsPrincipal"/> to easily
@@ -17,12 +17,12 @@ public static class HttpContextUserHelper
     /// <param name="user">The <see cref="ClaimsPrincipal"/> representing the current user.</param>
     /// <returns>The <see cref="IdentityId"/> extracted from the claims.</returns>
     /// <exception cref="InvalidOperationException">
-    /// Thrown if the <see cref="DavidStudioClaimTypes.Sub"/> claim is missing.
+    /// Thrown if the <see cref="DavidGroupClaimTypes.Sub"/> claim is missing.
     /// </exception>
     public static IdentityId GetId(this ClaimsPrincipal user)
     {
-        var userId = user.FindFirstValue(DavidStudioClaimTypes.Sub)
-                     ?? throw new InvalidOperationException($"{DavidStudioClaimTypes.Sub} is required");
+        var userId = user.FindFirstValue(DavidGroupClaimTypes.Sub)
+                     ?? throw new InvalidOperationException($"{DavidGroupClaimTypes.Sub} is required");
 
         return IdentityId.Parse(userId);
     }
@@ -33,12 +33,12 @@ public static class HttpContextUserHelper
     /// <param name="user">The <see cref="ClaimsPrincipal"/> representing the current user.</param>
     /// <returns>The <see cref="UserSessionId"/> extracted from the claims.</returns>
     /// <exception cref="InvalidOperationException">
-    /// Thrown if the <see cref="DavidStudioClaimTypes.SessionIdentifier"/> claim is missing.
+    /// Thrown if the <see cref="DavidGroupClaimTypes.SessionIdentifier"/> claim is missing.
     /// </exception>
     public static UserSessionId GetSessionId(this ClaimsPrincipal user)
     {
-        var sessionId = user.FindFirstValue(DavidStudioClaimTypes.SessionIdentifier)
-                        ?? throw new InvalidOperationException($"{DavidStudioClaimTypes.SessionIdentifier} is required");
+        var sessionId = user.FindFirstValue(DavidGroupClaimTypes.SessionIdentifier)
+                        ?? throw new InvalidOperationException($"{DavidGroupClaimTypes.SessionIdentifier} is required");
 
         return UserSessionId.Parse(sessionId);
     }
@@ -49,12 +49,12 @@ public static class HttpContextUserHelper
     /// <param name="user">The <see cref="ClaimsPrincipal"/> representing the current user.</param>
     /// <returns>The user's date of birth as <see cref="DateTime"/>.</returns>
     /// <exception cref="InvalidOperationException">
-    /// Thrown if the <see cref="DavidStudioClaimTypes.DateOfBirth"/> claim is missing.
+    /// Thrown if the <see cref="DavidGroupClaimTypes.DateOfBirth"/> claim is missing.
     /// </exception>
     public static DateTime GetDateOfBirth(this ClaimsPrincipal user)
     {
-        var dateOfBirth = user.FindFirstValue(DavidStudioClaimTypes.DateOfBirth)
-                          ?? throw new InvalidOperationException($"{DavidStudioClaimTypes.DateOfBirth} is required");
+        var dateOfBirth = user.FindFirstValue(DavidGroupClaimTypes.DateOfBirth)
+                          ?? throw new InvalidOperationException($"{DavidGroupClaimTypes.DateOfBirth} is required");
 
         return DateTime.Parse(dateOfBirth);
     }
@@ -65,12 +65,12 @@ public static class HttpContextUserHelper
     /// <param name="user">The <see cref="ClaimsPrincipal"/> representing the current user.</param>
     /// <returns>The <see cref="Sex"/> enum value extracted from claims.</returns>
     /// <exception cref="InvalidOperationException">
-    /// Thrown if the <see cref="DavidStudioClaimTypes.Gender"/> claim is missing.
+    /// Thrown if the <see cref="DavidGroupClaimTypes.Gender"/> claim is missing.
     /// </exception>
     public static Sex GetSex(this ClaimsPrincipal user)
     {
-        var sex = user.FindFirstValue(DavidStudioClaimTypes.Gender)
-                  ?? throw new InvalidOperationException($"{DavidStudioClaimTypes.Gender} is required");
+        var sex = user.FindFirstValue(DavidGroupClaimTypes.Gender)
+                  ?? throw new InvalidOperationException($"{DavidGroupClaimTypes.Gender} is required");
 
         return Enum.Parse<Sex>(sex, ignoreCase: true);
     }

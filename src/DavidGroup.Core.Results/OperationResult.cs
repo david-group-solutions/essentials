@@ -1,7 +1,7 @@
 ﻿using System.Collections.Immutable;
 using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Results;
+namespace DavidGroup.Core.Results;
 
 /// <summary>
 /// Represents the result of an operation, including its success status,

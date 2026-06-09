@@ -1,8 +1,8 @@
-using DavidStudio.Core.Auth.StronglyTypedIds;
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Dtos.Product;
+namespace DavidGroup.Core.Essentials.CompleteSample.Dtos.Product;
 
 public record ProductReadDto(
     ProductId Id,

@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace DavidStudio.Core.DataIO.Extensions;
+namespace DavidGroup.Core.DataIO.Extensions;
 
 /// <summary>
 /// Provides extension methods for registering and configuring MassTransit-based event bus transports.

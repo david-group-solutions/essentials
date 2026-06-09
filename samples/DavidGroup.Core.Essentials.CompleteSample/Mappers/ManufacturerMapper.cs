@@ -1,7 +1,7 @@
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
-using DavidStudio.Core.Essentials.CompleteSample.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+using DavidGroup.Core.Essentials.CompleteSample.Entities;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Mappers;
+namespace DavidGroup.Core.Essentials.CompleteSample.Mappers;
 
 public static class ManufacturerMapper
 {

@@ -1,13 +1,13 @@
 ﻿using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Builders;
-using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.Pagination;
-using DavidStudio.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.DataIO.Builders;
+using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.Pagination;
+using DavidGroup.Core.Pagination.InfiniteScroll;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace DavidStudio.Core.DataIO.Repositories;
+namespace DavidGroup.Core.DataIO.Repositories;
 
 /// <summary>
 /// Defines common operations for entities in the repository.

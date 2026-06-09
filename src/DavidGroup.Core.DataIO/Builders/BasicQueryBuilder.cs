@@ -1,10 +1,10 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Helpers;
-using DavidStudio.Core.Pagination;
+using DavidGroup.Core.DataIO.Helpers;
+using DavidGroup.Core.Pagination;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 
-namespace DavidStudio.Core.DataIO.Builders;
+namespace DavidGroup.Core.DataIO.Builders;
 
 /// <summary>
 /// Provides a fluent interface for building and composing Entity Framework Core queries

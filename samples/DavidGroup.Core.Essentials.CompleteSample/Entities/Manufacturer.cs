@@ -1,9 +1,9 @@
-using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 using MassTransit;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Entities;
+namespace DavidGroup.Core.Essentials.CompleteSample.Entities;
 
 public sealed class Manufacturer : Entity<ManufacturerId>,
     ISelfManageable<Manufacturer, ManufacturerCreateDto, ManufacturerUpdateDto>

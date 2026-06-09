@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace DavidStudio.Core.DataIO.UnitOfWork.EfCore;
+namespace DavidGroup.Core.DataIO.UnitOfWork.EfCore;
 
 public class EfUnitOfWork<TContext>(TContext context) : IEfUnitOfWork<TContext>, IDisposable
     where TContext : DbContext

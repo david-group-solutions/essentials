@@ -1,8 +1,8 @@
-using DavidStudio.Core.Auth.Hubs;
+using DavidGroup.Core.Auth.Hubs;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DavidStudio.Core.Auth.Extensions;
+namespace DavidGroup.Core.Auth.Extensions;
 
 /// <summary>
 /// Provides extension methods to configure SignalR hubs.

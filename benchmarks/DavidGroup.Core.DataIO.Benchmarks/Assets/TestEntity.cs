@@ -1,6 +1,6 @@
-using DavidStudio.Core.DataIO.Entities;
+using DavidGroup.Core.DataIO.Entities;
 
-namespace DavidStudio.Core.DataIO.Benchmarks.Assets;
+namespace DavidGroup.Core.DataIO.Benchmarks.Assets;
 
 public class TestEntity : Entity<int>
 {

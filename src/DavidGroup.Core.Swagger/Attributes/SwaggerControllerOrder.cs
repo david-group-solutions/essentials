@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Swagger.Attributes;
+namespace DavidGroup.Core.Swagger.Attributes;
 
 /// <summary>
 /// Provides ordering logic for Swagger controllers based on the <see cref="SwaggerControllerOrderAttribute"/>.

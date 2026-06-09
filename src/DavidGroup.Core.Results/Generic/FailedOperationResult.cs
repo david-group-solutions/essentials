@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Results.Generic;
+﻿namespace DavidGroup.Core.Results.Generic;
 
 /// <summary>
 /// Represents a failed operation result that optionally carries a value of type <typeparamref name="T"/>.

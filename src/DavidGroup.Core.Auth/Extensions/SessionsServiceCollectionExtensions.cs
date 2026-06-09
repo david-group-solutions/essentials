@@ -1,13 +1,13 @@
-using DavidStudio.Core.Auth.MessageHandlers;
-using DavidStudio.Core.Auth.Middleware;
-using DavidStudio.Core.Auth.Options;
-using DavidStudio.Core.Auth.Services;
+using DavidGroup.Core.Auth.MessageHandlers;
+using DavidGroup.Core.Auth.Middleware;
+using DavidGroup.Core.Auth.Options;
+using DavidGroup.Core.Auth.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Http.Resilience;
 
-namespace DavidStudio.Core.Auth.Extensions;
+namespace DavidGroup.Core.Auth.Extensions;
 
 /// <summary>
 /// Provides extension methods to configure and use session management in the application.

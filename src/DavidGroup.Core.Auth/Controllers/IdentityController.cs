@@ -1,9 +1,9 @@
-﻿using DavidStudio.Core.Auth.Enums;
-using DavidStudio.Core.Auth.StronglyTypedIds;
-using DavidStudio.Core.Auth.Utilities;
+﻿using DavidGroup.Core.Auth.Enums;
+using DavidGroup.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Auth.Utilities;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Auth.Controllers;
+namespace DavidGroup.Core.Auth.Controllers;
 
 /// <summary>
 /// Base controller providing helper methods to access the current authenticated user's identity information.

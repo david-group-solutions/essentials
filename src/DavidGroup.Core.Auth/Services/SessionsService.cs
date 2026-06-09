@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Auth.Services;
+namespace DavidGroup.Core.Auth.Services;
 
 /// <summary>
 /// Provides functionality to manage and validate user sessions.

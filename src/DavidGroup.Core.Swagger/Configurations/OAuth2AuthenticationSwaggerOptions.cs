@@ -1,10 +1,10 @@
-using DavidStudio.Core.Swagger.Options;
+using DavidGroup.Core.Swagger.Options;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace DavidStudio.Core.Swagger.Configurations;
+namespace DavidGroup.Core.Swagger.Configurations;
 
 /// <summary>
 /// Configures Swagger to support OAuth2 authentication in the Swagger UI.

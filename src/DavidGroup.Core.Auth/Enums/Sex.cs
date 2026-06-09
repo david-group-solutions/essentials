@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Auth.Enums;
+namespace DavidGroup.Core.Auth.Enums;
 
 public enum Sex
 {

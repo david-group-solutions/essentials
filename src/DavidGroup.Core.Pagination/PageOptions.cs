@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Pagination;
+namespace DavidGroup.Core.Pagination;
 
 /// <summary>
 /// Represents pagination options for a query, including the page number and page size.

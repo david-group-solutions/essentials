@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace DavidStudio.Core.Auth.PermissionAuthorization;
+namespace DavidGroup.Core.Auth.PermissionAuthorization;
 
 public class PermissionAuthorizationPolicyProvider(IOptions<AuthorizationOptions> options)
     : DefaultAuthorizationPolicyProvider(options)

@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Expressions;
+using DavidGroup.Core.DataIO.Expressions;
 
-namespace DavidStudio.Core.DataIO.Builders;
+namespace DavidGroup.Core.DataIO.Builders;
 
 /// <summary>
 /// Builds a dynamic "search-after" predicate for infinite scroll pagination

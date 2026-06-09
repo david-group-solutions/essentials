@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace DavidStudio.Core.DataIO.Builders;
+namespace DavidGroup.Core.DataIO.Builders;
 
 /// <summary>
 /// Provides functionality to dynamically construct ordering expressions

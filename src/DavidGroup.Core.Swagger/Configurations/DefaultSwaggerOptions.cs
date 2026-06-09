@@ -1,7 +1,7 @@
 using System.Reflection;
 using Asp.Versioning.ApiExplorer;
-using DavidStudio.Core.Swagger.Attributes;
-using DavidStudio.Core.Swagger.Filters;
+using DavidGroup.Core.Swagger.Attributes;
+using DavidGroup.Core.Swagger.Filters;
 using Microsoft.AspNetCore.Http.Metadata;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Controllers;
@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace DavidStudio.Core.Swagger.Configurations;
+namespace DavidGroup.Core.Swagger.Configurations;
 
 /// <summary>
 /// Configures default Swagger generation options for an ASP.NET Core application, including API versioning, tagging, 

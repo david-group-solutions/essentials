@@ -1,21 +1,21 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO;
-using DavidStudio.Core.DataIO.Helpers;
-using DavidStudio.Core.DataIO.Services;
-using DavidStudio.Core.DataIO.UnitOfWork.EfCore;
-using DavidStudio.Core.Essentials.CompleteSample.Database;
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Product;
-using DavidStudio.Core.Essentials.CompleteSample.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.Mappers;
-using DavidStudio.Core.Essentials.CompleteSample.Models.Product;
-using DavidStudio.Core.Essentials.CompleteSample.Repositories;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
-using DavidStudio.Core.Pagination.InfiniteScroll;
-using DavidStudio.Core.Results;
-using DavidStudio.Core.Results.Generic;
+using DavidGroup.Core.DataIO;
+using DavidGroup.Core.DataIO.Helpers;
+using DavidGroup.Core.DataIO.Services;
+using DavidGroup.Core.DataIO.UnitOfWork.EfCore;
+using DavidGroup.Core.Essentials.CompleteSample.Database;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Product;
+using DavidGroup.Core.Essentials.CompleteSample.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.Mappers;
+using DavidGroup.Core.Essentials.CompleteSample.Models.Product;
+using DavidGroup.Core.Essentials.CompleteSample.Repositories;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.Results;
+using DavidGroup.Core.Results.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Services;
+namespace DavidGroup.Core.Essentials.CompleteSample.Services;
 
 public class ProductsService(IProductsRepository repository, IEfUnitOfWork<ApplicationDbContext> unitOfWork)
     : BaseService<ApplicationDbContext, IProductsRepository, Product, ProductId, ProductCreateModel,

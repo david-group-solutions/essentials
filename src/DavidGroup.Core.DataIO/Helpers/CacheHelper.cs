@@ -1,7 +1,7 @@
 using System.Collections.Concurrent;
 using System.Linq.Expressions;
 
-namespace DavidStudio.Core.DataIO.Helpers;
+namespace DavidGroup.Core.DataIO.Helpers;
 
 /// <summary>
 /// Provides caching in memory caching of internal library resources to improve performance in repeated operations.

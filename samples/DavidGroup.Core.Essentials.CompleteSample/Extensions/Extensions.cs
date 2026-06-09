@@ -1,7 +1,7 @@
-using DavidStudio.Core.Essentials.CompleteSample.Repositories;
-using DavidStudio.Core.Essentials.CompleteSample.Services;
+using DavidGroup.Core.Essentials.CompleteSample.Repositories;
+using DavidGroup.Core.Essentials.CompleteSample.Services;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Extensions;
+namespace DavidGroup.Core.Essentials.CompleteSample.Extensions;
 
 public static class Extensions
 {

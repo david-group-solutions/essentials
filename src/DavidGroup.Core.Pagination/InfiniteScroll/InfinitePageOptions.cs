@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Pagination.InfiniteScroll;
+namespace DavidGroup.Core.Pagination.InfiniteScroll;
 
 /// <summary>
 /// Represents the options for an infinite scroll (cursor) pagination request.

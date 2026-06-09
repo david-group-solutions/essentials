@@ -1,9 +1,9 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Helpers;
-using DavidStudio.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.DataIO.Helpers;
+using DavidGroup.Core.Pagination.InfiniteScroll;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.DataIO.Builders;
+namespace DavidGroup.Core.DataIO.Builders;
 
 /// <summary>
 /// Builds an infinite scroll pagination query.

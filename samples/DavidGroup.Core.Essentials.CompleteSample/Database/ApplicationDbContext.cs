@@ -1,9 +1,9 @@
-using DavidStudio.Core.Auth.StronglyTypedIds;
-using DavidStudio.Core.Essentials.CompleteSample.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Essentials.CompleteSample.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Database;
+namespace DavidGroup.Core.Essentials.CompleteSample.Database;
 
 public class ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
     : DbContext(options)

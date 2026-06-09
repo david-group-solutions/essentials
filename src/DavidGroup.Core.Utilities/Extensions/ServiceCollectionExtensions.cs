@@ -1,8 +1,8 @@
 using System.Net;
 using System.Reflection;
 using Asp.Versioning;
-using DavidStudio.Core.Auth.Conventions;
-using DavidStudio.Core.Utilities.Options;
+using DavidGroup.Core.Auth.Conventions;
+using DavidGroup.Core.Utilities.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
@@ -11,7 +11,7 @@ using OpenTelemetry.Metrics;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 
-namespace DavidStudio.Core.Utilities.Extensions;
+namespace DavidGroup.Core.Utilities.Extensions;
 
 /// <summary>
 /// Provides extension methods for configuring common services and libraries in an ASP.NET Core application.

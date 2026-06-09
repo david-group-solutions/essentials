@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Essentials.CompleteSample.Data;
+﻿namespace DavidGroup.Core.Essentials.CompleteSample.Data;
 
 public static class Permissions
 {

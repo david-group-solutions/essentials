@@ -1,13 +1,13 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.DataIO.Helpers;
-using DavidStudio.Core.DataIO.Repositories;
-using DavidStudio.Core.Pagination;
-using DavidStudio.Core.Pagination.InfiniteScroll;
-using DavidStudio.Core.Results;
-using DavidStudio.Core.Results.Generic;
+using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.DataIO.Helpers;
+using DavidGroup.Core.DataIO.Repositories;
+using DavidGroup.Core.Pagination;
+using DavidGroup.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.Results;
+using DavidGroup.Core.Results.Generic;
 
-namespace DavidStudio.Core.DataIO.Services;
+namespace DavidGroup.Core.DataIO.Services;
 
 public abstract class BaseReadonlyService<TRepository, TEntity, TKey, TReadDto>(TRepository repository)
     : IBaseReadonlyService<TEntity, TKey, TReadDto>

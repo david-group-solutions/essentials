@@ -1,14 +1,14 @@
-﻿using DavidStudio.Core.Auth.Data;
+﻿using DavidGroup.Core.Auth.Data;
 using Microsoft.AspNetCore.SignalR;
 
-namespace DavidStudio.Core.Auth.Hubs;
+namespace DavidGroup.Core.Auth.Hubs;
 
 /// <summary>
 /// Provides a custom user ID for SignalR connections based on the user's claims.
 /// </summary>
 /// <remarks>
 /// This implementation retrieves the user ID from the claim defined in
-/// <see cref="DavidStudioClaimTypes.UserIdentifier"/> and can be used to
+/// <see cref="DavidGroupClaimTypes.UserIdentifier"/> and can be used to
 /// uniquely identify users in SignalR hubs.
 /// </remarks>
 public class IdentityIdProvider : IUserIdProvider
@@ -18,11 +18,11 @@ public class IdentityIdProvider : IUserIdProvider
     /// </summary>
     /// <param name="connection">The <see cref="HubConnectionContext"/> representing the SignalR connection.</param>
     /// <returns>
-    /// The user ID as a <see cref="string"/> extracted from the <see cref="DavidStudioClaimTypes.Sub"/> claim,
+    /// The user ID as a <see cref="string"/> extracted from the <see cref="DavidGroupClaimTypes.Sub"/> claim,
     /// or <c>null</c> if the claim is not present.
     /// </returns>
     public virtual string? GetUserId(HubConnectionContext connection)
     {
-        return connection.User.FindFirst(DavidStudioClaimTypes.Sub)?.Value;
+        return connection.User.FindFirst(DavidGroupClaimTypes.Sub)?.Value;
     }
 }

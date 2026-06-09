@@ -1,7 +1,7 @@
-﻿using DavidStudio.Core.Auth.Data;
+﻿using DavidGroup.Core.Auth.Data;
 using Microsoft.AspNetCore.Authorization;
 
-namespace DavidStudio.Core.Auth.PermissionAuthorization;
+namespace DavidGroup.Core.Auth.PermissionAuthorization;
 
 public class PermissionAuthorizationHandler : AuthorizationHandler<PermissionRequirement>
 {
@@ -10,7 +10,7 @@ public class PermissionAuthorizationHandler : AuthorizationHandler<PermissionReq
         PermissionRequirement requirement)
     {
         var permissions = context.User.Claims
-           .Where(r => r.Type == DavidStudioClaimTypes.Permission)
+           .Where(r => r.Type == DavidGroupClaimTypes.Permission)
            .Select(r => r.Value)
            .ToHashSet();
 

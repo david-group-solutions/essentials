@@ -1,4 +1,4 @@
-# DavidStudio.Core.Essentials
+# DavidGroup.Core.Essentials
 
 A productivity library that accelerates .NET project scaffolding by providing ready-to-use features for
 common application needs. Includes data I/O helpers and abstractions, authentication utilities,
@@ -16,36 +16,36 @@ This package is currently in alpha. Development is ongoing, and contributions ar
 
 Using the .NET CLI:
 ```bash
-dotnet add package DavidStudio.Core.Essentials
+dotnet add package DavidGroup.Core.Essentials
 ```
 
 Or via the Package Manager Console:
 ```bash
-Install-Package DavidStudio.Core.Essentials
+Install-Package DavidGroup.Core.Essentials
 ```
 
 ### How to use it?
 
-Feel free to explore the [samples](https://github.com/david-studio-core/Essentials/tree/main/samples) to find practical examples for each feature.
+Feel free to explore the [samples](https://github.com/david-group-solutions/essentials/tree/main/samples) to find practical examples for each feature.
 New samples are added continuously as more features are developed.
 
 ## 📦 Key Features
 
-* [DataIO](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.DataIO) - A comprehensive toolkit that streamlines data operations with Entity Framework Core, ADO.NET, and providers for Elasticsearch, RabbitMQ, Azure ServiceBus, Redis, and RedLock. Includes multiple design patterns and abstractions that reduce boilerplate and simplify your daily development workflow.  
+* [DataIO](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.DataIO) - A comprehensive toolkit that streamlines data operations with Entity Framework Core, ADO.NET, and providers for Elasticsearch, RabbitMQ, Azure ServiceBus, Redis, and RedLock. Includes multiple design patterns and abstractions that reduce boilerplate and simplify your daily development workflow.  
 
-* [Auth](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.Auth) - Essential Authentication and Authorization utilities for ASP.NET Core, featuring powerful permission-based authorization for JWT, seamless Bearer token support, Swagger authentication configuration, convenient claim helpers, and user-session tools. 
+* [Auth](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.Auth) - Essential Authentication and Authorization utilities for ASP.NET Core, featuring powerful permission-based authorization for JWT, seamless Bearer token support, Swagger authentication configuration, convenient claim helpers, and user-session tools. 
 
-* [Swagger](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.Swagger) - Plug-and-play extensions for adding Swagger with sensible defaults. Includes built-in support for StronglyTypedIds, Bearer authentication, API versioning, and controller ordering.
+* [Swagger](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.Swagger) - Plug-and-play extensions for adding Swagger with sensible defaults. Includes built-in support for StronglyTypedIds, Bearer authentication, API versioning, and controller ordering.
 
-* [Results](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.Results) - Clean, standardized result and response models for APIs and services. Helps enforce consistent response patterns and reduce repetitive code.
+* [Results](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.Results) - Clean, standardized result and response models for APIs and services. Helps enforce consistent response patterns and reduce repetitive code.
 
-* [Pagination](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.Pagination) - Robust cursor-based and offset-based pagination models and utilities designed for high-performance, scalable APIs.
+* [Pagination](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.Pagination) - Robust cursor-based and offset-based pagination models and utilities designed for high-performance, scalable APIs.
 
-* [Utilities](https://github.com/david-studio-core/Essentials/tree/main/src/DavidStudio.Core.Utilities) - A growing collection of handy helpers and extensions to speed up everyday .NET development.
+* [Utilities](https://github.com/david-group-solutions/essentials/tree/main/src/DavidGroup.Core.Utilities) - A growing collection of handy helpers and extensions to speed up everyday .NET development.
 
 ## 🚀 What I'm Most Proud Of
 
-One of the standout features of *DavidStudio.Core.Essentials* is its high-performance dynamic ordering query builder from string for LINQ and Entity Framework Core.
+One of the standout features of *DavidGroup.Core.Essentials* is its high-performance dynamic ordering query builder from string for LINQ and Entity Framework Core.
 It delivers over **2× faster** execution and cuts memory allocations in half compared to *System.Linq.Dynamic.Core*, making it ideal for high-load APIs and advanced pagination scenarios.
 
 ```
@@ -68,14 +68,14 @@ Apple M4 Max, 1 CPU, 16 logical and 16 physical cores
 Found a bug? Have an idea? Want to contribute?
 
 * Submit an issue:
-https://github.com/david-studio-core/Essentials/issues
+https://github.com/david-group-solutions/essentials/issues
 * Create a pull request:
-https://github.com/david-studio-core/Essentials/pulls
+https://github.com/david-group-solutions/essentials/pulls
 
 Contributions of any size are appreciated!
 
 ## 📝 License
 
-Distributed under the **MIT license**. See [License](https://github.com/david-studio-core/Essentials/blob/main/LICENSE.txt) for more information.
+Distributed under the **MIT license**. See [License](https://github.com/david-group-solutions/essentials/blob/main/LICENSE.txt) for more information.
 
-Copyright © 2025 David Khachatryan (David Studio)
+Copyright © 2025 David Khachatryan (David Group Solutions)

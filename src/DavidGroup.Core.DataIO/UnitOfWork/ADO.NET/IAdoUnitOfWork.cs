@@ -1,6 +1,6 @@
 using Microsoft.Data.SqlClient;
 
-namespace DavidStudio.Core.DataIO.UnitOfWork.ADO.NET;
+namespace DavidGroup.Core.DataIO.UnitOfWork.ADO.NET;
 
 /// <summary>
 /// Defines the contract for an ADO.NET-based implementation of the Unit of Work pattern.

@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DavidStudio.Core.Auth.Options;
+namespace DavidGroup.Core.Auth.Options;
 
 public class SessionsManagementOptions
 {

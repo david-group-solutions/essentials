@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Utilities.Utilities;
+﻿namespace DavidGroup.Core.Utilities.Utilities;
 
 /// <summary>
 /// Provides extension methods for converting strings to enum values.

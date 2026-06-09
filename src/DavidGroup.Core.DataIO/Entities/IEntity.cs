@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.DataIO.Entities;
+﻿namespace DavidGroup.Core.DataIO.Entities;
 
 /// <summary>
 /// Represents an entity with a strongly-typed primary key.

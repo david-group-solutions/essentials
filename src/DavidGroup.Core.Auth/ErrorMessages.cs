@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Auth;
+namespace DavidGroup.Core.Auth;
 
 public static class ErrorMessages
 {

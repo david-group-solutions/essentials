@@ -1,7 +1,7 @@
 using System.ComponentModel.DataAnnotations;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Dtos.Product;
+namespace DavidGroup.Core.Essentials.CompleteSample.Dtos.Product;
 
 public record ProductCreateDto
 {

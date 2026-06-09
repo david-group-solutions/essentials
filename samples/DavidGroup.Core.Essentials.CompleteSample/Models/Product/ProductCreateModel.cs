@@ -1,7 +1,7 @@
-using DavidStudio.Core.Auth.StronglyTypedIds;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Models.Product;
+namespace DavidGroup.Core.Essentials.CompleteSample.Models.Product;
 
 public record ProductCreateModel(
     string Name,

@@ -1,4 +1,4 @@
-﻿using DavidStudio.Core.Auth.PermissionAuthorization;
+﻿using DavidGroup.Core.Auth.PermissionAuthorization;
 using Swashbuckle.AspNetCore.SwaggerGen;
 #if NET10_0_OR_GREATER
 using Microsoft.OpenApi;
@@ -6,7 +6,7 @@ using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
 #endif
 
-namespace DavidStudio.Core.Auth.Swagger;
+namespace DavidGroup.Core.Auth.Swagger;
 
 /// <summary>
 /// Adds a description of required permissions to Swagger/OpenAPI documentation for controller actions.

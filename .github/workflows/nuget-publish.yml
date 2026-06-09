@@ -28,13 +28,13 @@
 #         run: dotnet test --configuration Release --verbosity normal
 
 #       - name: Pack
-#         run: dotnet pack src/DavidStudio.Core.Essentials/DavidStudio.Core.Essentials.csproj --configuration Release -o out
+#         run: dotnet pack src/DavidGroup.Core.Essentials/DavidGroup.Core.Essentials.csproj --configuration Release -o out
 
 #       - name: NuGet login
 #         uses: NuGet/login@v1
 #         id: login
 #         with:
-#           user: davidstudio
+#           user: davidgroup
 
 #       - name: Publish package to NuGet.org
 #         run: dotnet nuget push out/*.nupkg --api-key ${{steps.login.outputs.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json

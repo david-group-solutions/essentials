@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Pagination.InfiniteScroll;
+namespace DavidGroup.Core.Pagination.InfiniteScroll;
 
 /// <summary>
 /// Represents a cursor for infinite scroll (cursor) pagination.

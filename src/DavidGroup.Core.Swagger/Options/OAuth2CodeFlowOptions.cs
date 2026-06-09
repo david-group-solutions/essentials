@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Swagger.Options;
+namespace DavidGroup.Core.Swagger.Options;
 
 public class OAuth2CodeFlowOptions
 {

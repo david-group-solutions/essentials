@@ -1,8 +1,8 @@
-using DavidStudio.Core.DataIO.Entities;
+using DavidGroup.Core.DataIO.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
 
-namespace DavidStudio.Core.DataIO.Interceptors;
+namespace DavidGroup.Core.DataIO.Interceptors;
 
 /// <summary>
 /// Intercepts <see cref="DbContext.SaveChangesAsync(System.Threading.CancellationToken)"/> calls

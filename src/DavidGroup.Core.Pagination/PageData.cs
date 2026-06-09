@@ -1,6 +1,6 @@
 ﻿using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Pagination;
+namespace DavidGroup.Core.Pagination;
 
 /// <summary>
 /// Represents a paginated set of data along with pagination metadata.

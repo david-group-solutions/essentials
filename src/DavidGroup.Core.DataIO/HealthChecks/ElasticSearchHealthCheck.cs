@@ -1,7 +1,7 @@
 using Elastic.Clients.Elasticsearch;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
-namespace DavidStudio.Core.DataIO.HealthChecks;
+namespace DavidGroup.Core.DataIO.HealthChecks;
 
 /// <summary>
 /// Represents a health check for an Elasticsearch cluster.

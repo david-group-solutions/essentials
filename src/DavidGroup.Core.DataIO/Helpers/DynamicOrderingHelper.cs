@@ -1,7 +1,7 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.Results;
+using DavidGroup.Core.Results;
 
-namespace DavidStudio.Core.DataIO.Helpers;
+namespace DavidGroup.Core.DataIO.Helpers;
 
 /// <summary>
 /// Provides helper methods for dynamic sorting.

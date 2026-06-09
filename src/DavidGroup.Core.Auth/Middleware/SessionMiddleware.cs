@@ -1,9 +1,9 @@
 using System.Text.Json;
-using DavidStudio.Core.Auth.Services;
+using DavidGroup.Core.Auth.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Auth.Middleware;
+namespace DavidGroup.Core.Auth.Middleware;
 
 /// <summary>
 /// Middleware that checks the current user's session for expiration and

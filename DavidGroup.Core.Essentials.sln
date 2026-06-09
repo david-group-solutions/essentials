@@ -5,31 +5,31 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Essentials", "src\DavidStudio.Core.Essentials\DavidStudio.Core.Essentials.csproj", "{2BD8F526-B4A1-4C9D-A83D-5024136E477A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Essentials", "src\DavidGroup.Core.Essentials\DavidGroup.Core.Essentials.csproj", "{2BD8F526-B4A1-4C9D-A83D-5024136E477A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.DataIO", "src\DavidStudio.Core.DataIO\DavidStudio.Core.DataIO.csproj", "{088607B9-DC12-4E39-A6E5-FED97A8DE6B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.DataIO", "src\DavidGroup.Core.DataIO\DavidGroup.Core.DataIO.csproj", "{088607B9-DC12-4E39-A6E5-FED97A8DE6B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Swagger", "src\DavidStudio.Core.Swagger\DavidStudio.Core.Swagger.csproj", "{EB5FE80B-0722-4A46-AE21-202D7546C269}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Swagger", "src\DavidGroup.Core.Swagger\DavidGroup.Core.Swagger.csproj", "{EB5FE80B-0722-4A46-AE21-202D7546C269}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Auth", "src\DavidStudio.Core.Auth\DavidStudio.Core.Auth.csproj", "{BEDA289B-6185-483F-8083-0A999E8A3A3B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Auth", "src\DavidGroup.Core.Auth\DavidGroup.Core.Auth.csproj", "{BEDA289B-6185-483F-8083-0A999E8A3A3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Results", "src\DavidStudio.Core.Results\DavidStudio.Core.Results.csproj", "{803A12E9-DC83-4539-A189-176A3CF96D2E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Results", "src\DavidGroup.Core.Results\DavidGroup.Core.Results.csproj", "{803A12E9-DC83-4539-A189-176A3CF96D2E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Pagination", "src\DavidStudio.Core.Pagination\DavidStudio.Core.Pagination.csproj", "{EB5FC651-3B4F-4B01-90A7-2CB9C8BDD70B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Pagination", "src\DavidGroup.Core.Pagination\DavidGroup.Core.Pagination.csproj", "{EB5FC651-3B4F-4B01-90A7-2CB9C8BDD70B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.DataIO.Tests", "tests\DavidStudio.Core.DataIO.Tests\DavidStudio.Core.DataIO.Tests.csproj", "{7B637C19-219C-4572-8E1E-AF64569A6DE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.DataIO.Tests", "tests\DavidGroup.Core.DataIO.Tests\DavidGroup.Core.DataIO.Tests.csproj", "{7B637C19-219C-4572-8E1E-AF64569A6DE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "benchmarks", "benchmarks", "{66320409-64EC-F7C5-3DEF-65E7510DAAD1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.DataIO.Benchmarks", "benchmarks\DavidStudio.Core.DataIO.Benchmarks\DavidStudio.Core.DataIO.Benchmarks.csproj", "{804863AE-DDD7-4100-97E2-B4BD10D4A5F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.DataIO.Benchmarks", "benchmarks\DavidGroup.Core.DataIO.Benchmarks\DavidGroup.Core.DataIO.Benchmarks.csproj", "{804863AE-DDD7-4100-97E2-B4BD10D4A5F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Utilities", "src\DavidStudio.Core.Utilities\DavidStudio.Core.Utilities.csproj", "{542E6A7B-A8E3-4909-92B5-369367EF259F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Utilities", "src\DavidGroup.Core.Utilities\DavidGroup.Core.Utilities.csproj", "{542E6A7B-A8E3-4909-92B5-369367EF259F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{5D20AA90-6969-D8BD-9DCD-8634F4692FDA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidStudio.Core.Essentials.CompleteSample", "samples\DavidStudio.Core.Essentials.CompleteSample\DavidStudio.Core.Essentials.CompleteSample.csproj", "{B2FD454D-EE1C-4612-A9F4-193C580283A7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavidGroup.Core.Essentials.CompleteSample", "samples\DavidGroup.Core.Essentials.CompleteSample\DavidGroup.Core.Essentials.CompleteSample.csproj", "{B2FD454D-EE1C-4612-A9F4-193C580283A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

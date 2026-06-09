@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+namespace DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
 
 public record ManufacturerCreateDto
 {

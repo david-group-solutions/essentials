@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Results;
+﻿namespace DavidGroup.Core.Results;
 
 public enum OperationResultSeverity
 {

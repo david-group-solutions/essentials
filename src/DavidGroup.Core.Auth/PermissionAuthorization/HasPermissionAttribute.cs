@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace DavidStudio.Core.Auth.PermissionAuthorization;
+namespace DavidGroup.Core.Auth.PermissionAuthorization;
 
 /// <summary>
 /// Specifies that a controller or action requires one or more permissions.

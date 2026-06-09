@@ -3,7 +3,7 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace DavidStudio.Core.DataIO.Extensions;
+namespace DavidGroup.Core.DataIO.Extensions;
 
 /// <summary>
 /// Provides extension methods for <see cref="IDistributedCache"/> to store and retrieve

@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.DataIO.UnitOfWork;
+namespace DavidGroup.Core.DataIO.UnitOfWork;
 
 /// <summary>
 /// Defines the contract for implementing the Unit of Work pattern,

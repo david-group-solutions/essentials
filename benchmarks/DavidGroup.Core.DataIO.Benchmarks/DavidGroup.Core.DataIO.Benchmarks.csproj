@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.DataIO\DavidStudio.Core.DataIO.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.DataIO\DavidGroup.Core.DataIO.csproj"/>
     </ItemGroup>
 
 </Project>

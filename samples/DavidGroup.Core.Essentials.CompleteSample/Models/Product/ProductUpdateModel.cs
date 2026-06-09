@@ -1,6 +1,6 @@
-using DavidStudio.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.Auth.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Models.Product;
+namespace DavidGroup.Core.Essentials.CompleteSample.Models.Product;
 
 public record ProductUpdateModel(
     string Name,

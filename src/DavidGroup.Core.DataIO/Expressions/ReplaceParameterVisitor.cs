@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace DavidStudio.Core.DataIO.Expressions;
+namespace DavidGroup.Core.DataIO.Expressions;
 
 /// <summary>
 /// An <see cref="ExpressionVisitor"/> that replaces occurrences of a specified <see cref="ParameterExpression"/>

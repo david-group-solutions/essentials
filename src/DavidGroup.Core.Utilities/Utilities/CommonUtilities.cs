@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Utilities.Utilities;
+namespace DavidGroup.Core.Utilities.Utilities;
 
 /// <summary>
 /// Provides common utilities.

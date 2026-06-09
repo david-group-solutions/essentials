@@ -8,12 +8,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.DataIO\DavidStudio.Core.DataIO.csproj"/>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.Auth\DavidStudio.Core.Auth.csproj"/>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.Swagger\DavidStudio.Core.Swagger.csproj"/>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.Pagination\DavidStudio.Core.Pagination.csproj"/>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.Results\DavidStudio.Core.Results.csproj"/>
-        <ProjectReference Include="..\..\src\DavidStudio.Core.Utilities\DavidStudio.Core.Utilities.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.DataIO\DavidGroup.Core.DataIO.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.Auth\DavidGroup.Core.Auth.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.Swagger\DavidGroup.Core.Swagger.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.Pagination\DavidGroup.Core.Pagination.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.Results\DavidGroup.Core.Results.csproj"/>
+        <ProjectReference Include="..\..\src\DavidGroup.Core.Utilities\DavidGroup.Core.Utilities.csproj"/>
     </ItemGroup>
 
     <ItemGroup>

@@ -1,15 +1,15 @@
 using Asp.Versioning;
-using DavidStudio.Core.Essentials.CompleteSample.Data;
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
-using DavidStudio.Core.Essentials.CompleteSample.Services;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
-using DavidStudio.Core.Pagination.InfiniteScroll;
-using DavidStudio.Core.Results.Generic;
-using DavidStudio.Core.Swagger.Attributes;
+using DavidGroup.Core.Essentials.CompleteSample.Data;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+using DavidGroup.Core.Essentials.CompleteSample.Services;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.Results.Generic;
+using DavidGroup.Core.Swagger.Attributes;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Controllers;
+namespace DavidGroup.Core.Essentials.CompleteSample.Controllers;
 
 [ApiController]
 [ApiVersion("1.0")]

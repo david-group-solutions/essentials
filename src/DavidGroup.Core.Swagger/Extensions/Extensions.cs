@@ -1,13 +1,13 @@
 ﻿using Asp.Versioning.ApiExplorer;
-using DavidStudio.Core.Swagger.Configurations;
-using DavidStudio.Core.Swagger.Options;
+using DavidGroup.Core.Swagger.Configurations;
+using DavidGroup.Core.Swagger.Options;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace DavidStudio.Core.Swagger.Extensions;
+namespace DavidGroup.Core.Swagger.Extensions;
 
 /// <summary>
 /// Provides extension methods for registering and configuring Swagger in an ASP.NET Core application with default settings.

@@ -1,8 +1,8 @@
-﻿namespace DavidStudio.Core.Auth.Data;
+﻿namespace DavidGroup.Core.Auth.Data;
 
-public static class DavidStudioClaimTypes
+public static class DavidGroupClaimTypes
 {
-    internal const string ClaimTypeNamespace = "http://schemas.davidstudio.org/identity/claims/";
+    internal const string ClaimTypeNamespace = "http://schemas.davidgroupsolutions.org/identity/claims/";
 
     public const string LicenceVersion = ClaimTypeNamespace + "licence_version";
     public const string PrivacyPolicyVersion = ClaimTypeNamespace + "privacy_polciy_version";

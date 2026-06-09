@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 
-namespace DavidStudio.Core.Auth.PermissionAuthorization;
+namespace DavidGroup.Core.Auth.PermissionAuthorization;
 
 public class PermissionRequirement(string permission) : IAuthorizationRequirement
 {

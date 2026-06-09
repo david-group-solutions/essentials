@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DavidStudio.Core.DataIO.Entities;
+namespace DavidGroup.Core.DataIO.Entities;
 
 /// <summary>
 /// Serves as the base class for all entities that use a strongly-typed primary key.

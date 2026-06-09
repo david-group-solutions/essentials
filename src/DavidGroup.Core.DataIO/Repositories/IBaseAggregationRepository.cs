@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace DavidStudio.Core.DataIO.Repositories;
+namespace DavidGroup.Core.DataIO.Repositories;
 
 /// <summary>
 /// Defines common aggregation operations for entities in the repository.

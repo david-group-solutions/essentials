@@ -7,8 +7,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\DavidStudio.Core.Pagination\DavidStudio.Core.Pagination.csproj"/>
-        <ProjectReference Include="..\DavidStudio.Core.Results\DavidStudio.Core.Results.csproj"/>
+        <ProjectReference Include="..\DavidGroup.Core.Pagination\DavidGroup.Core.Pagination.csproj"/>
+        <ProjectReference Include="..\DavidGroup.Core.Results\DavidGroup.Core.Results.csproj"/>
     </ItemGroup>
 
     <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">

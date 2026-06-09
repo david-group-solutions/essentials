@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Quartz;
 using Quartz.Impl.AdoJobStore;
 
-namespace DavidStudio.Core.Utilities.Extensions;
+namespace DavidGroup.Core.Utilities.Extensions;
 
 /// <summary>
 /// Provides extension methods for registering and configuring Quartz.NET jobs and triggers with default settings in an ASP.NET Core application.

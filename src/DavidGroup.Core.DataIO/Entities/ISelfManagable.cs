@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.DataIO.Entities;
+﻿namespace DavidGroup.Core.DataIO.Entities;
 
 /// <summary>
 /// Defines a contract for entities that can manage their own creation and update logic

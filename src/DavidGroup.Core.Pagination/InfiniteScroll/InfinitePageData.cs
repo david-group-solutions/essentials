@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace DavidStudio.Core.Pagination.InfiniteScroll;
+namespace DavidGroup.Core.Pagination.InfiniteScroll;
 
 /// <summary>
 /// Represents a paginated result set for infinite scroll (cursor) pagination.

@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace DavidStudio.Core.DataIO.UnitOfWork.EfCore;
+namespace DavidGroup.Core.DataIO.UnitOfWork.EfCore;
 
 /// <summary>
 /// Defines the contract for an Entity Framework Core implementation of the Unit of Work pattern.

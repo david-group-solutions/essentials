@@ -1,6 +1,6 @@
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+namespace DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
 
 public record ManufacturerReadDto(
     ManufacturerId Id,

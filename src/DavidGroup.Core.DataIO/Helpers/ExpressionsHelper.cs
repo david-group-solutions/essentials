@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace DavidStudio.Core.DataIO.Helpers;
+namespace DavidGroup.Core.DataIO.Helpers;
 
 /// <summary>
 /// Provides helper methods for expressions.

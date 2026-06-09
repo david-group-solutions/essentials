@@ -1,12 +1,12 @@
-﻿using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.DataIO.Helpers;
-using DavidStudio.Core.DataIO.Repositories;
-using DavidStudio.Core.DataIO.UnitOfWork.EfCore;
-using DavidStudio.Core.Results;
-using DavidStudio.Core.Results.Generic;
+﻿using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.DataIO.Helpers;
+using DavidGroup.Core.DataIO.Repositories;
+using DavidGroup.Core.DataIO.UnitOfWork.EfCore;
+using DavidGroup.Core.Results;
+using DavidGroup.Core.Results.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.DataIO.Services;
+namespace DavidGroup.Core.DataIO.Services;
 
 public abstract class BaseService<TDbContext, TRepository, TEntity, TKey, TCreateModel, TUpdateModel, TReadDto>(
     TRepository repository,

@@ -1,11 +1,11 @@
 ﻿using System.Security.Claims;
 using System.Text;
 using System.Text.Json;
-using DavidStudio.Core.Auth.Data;
-using DavidStudio.Core.Auth.Options;
-using DavidStudio.Core.Auth.PermissionAuthorization;
-using DavidStudio.Core.Auth.ResultHandlers;
-using DavidStudio.Core.Auth.Swagger;
+using DavidGroup.Core.Auth.Data;
+using DavidGroup.Core.Auth.Options;
+using DavidGroup.Core.Auth.PermissionAuthorization;
+using DavidGroup.Core.Auth.ResultHandlers;
+using DavidGroup.Core.Auth.Swagger;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 
-namespace DavidStudio.Core.Auth.Extensions;
+namespace DavidGroup.Core.Auth.Extensions;
 
 /// <summary>
 /// Provides extension methods to configure JWT authentication and permission-based authorization.
@@ -82,8 +82,8 @@ public static class IdentityServiceCollectionExtensions
 
                 ClockSkew = TimeSpan.FromSeconds(30),
 
-                RoleClaimType = DavidStudioClaimTypes.Role,
-                NameClaimType = DavidStudioClaimTypes.Nickname
+                RoleClaimType = DavidGroupClaimTypes.Role,
+                NameClaimType = DavidGroupClaimTypes.Nickname
             };
 
             options.Events = new JwtBearerEvents
@@ -132,7 +132,7 @@ public static class IdentityServiceCollectionExtensions
                 },
                 OnTokenValidated = context =>
                 {
-                    var typ = context.Principal?.FindFirstValue(DavidStudioClaimTypes.Typ);
+                    var typ = context.Principal?.FindFirstValue(DavidGroupClaimTypes.Typ);
                     if (typ == "2fa_challenge")
                         context.Fail("2FA challenge token is not valid for API access.");
 

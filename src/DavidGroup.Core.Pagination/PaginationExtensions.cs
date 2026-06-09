@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Pagination;
+﻿namespace DavidGroup.Core.Pagination;
 
 /// <summary>
 /// Provides extension methods for pagination.

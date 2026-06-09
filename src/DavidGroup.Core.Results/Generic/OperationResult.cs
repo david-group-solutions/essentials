@@ -1,6 +1,6 @@
 ﻿using System.Diagnostics.CodeAnalysis;
 
-namespace DavidStudio.Core.Results.Generic;
+namespace DavidGroup.Core.Results.Generic;
 
 /// <summary>
 /// Represents the result of an operation that may carry a value of type <typeparamref name="T"/>.

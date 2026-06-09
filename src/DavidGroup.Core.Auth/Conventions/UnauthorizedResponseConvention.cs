@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApplicationModels;
 
-namespace DavidStudio.Core.Auth.Conventions;
+namespace DavidGroup.Core.Auth.Conventions;
 
 public class UnauthorizedResponseConvention : IApplicationModelConvention
 {

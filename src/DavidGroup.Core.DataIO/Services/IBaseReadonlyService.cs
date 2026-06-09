@@ -1,10 +1,10 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.Pagination;
-using DavidStudio.Core.Pagination.InfiniteScroll;
-using DavidStudio.Core.Results.Generic;
+using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.Pagination;
+using DavidGroup.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.Results.Generic;
 
-namespace DavidStudio.Core.DataIO.Services;
+namespace DavidGroup.Core.DataIO.Services;
 
 /// <summary>
 /// Defines a base service interface for readonly entity operations using DTO mapping for reading.

@@ -1,10 +1,10 @@
-using DavidStudio.Core.Auth.Conventions;
-using DavidStudio.Core.Auth.Extensions;
-using DavidStudio.Core.DataIO.Extensions;
-using DavidStudio.Core.Essentials.CompleteSample.Database;
-using DavidStudio.Core.Essentials.CompleteSample.Extensions;
-using DavidStudio.Core.Swagger.Extensions;
-using DavidStudio.Core.Utilities.Extensions;
+using DavidGroup.Core.Auth.Conventions;
+using DavidGroup.Core.Auth.Extensions;
+using DavidGroup.Core.DataIO.Extensions;
+using DavidGroup.Core.Essentials.CompleteSample.Database;
+using DavidGroup.Core.Essentials.CompleteSample.Extensions;
+using DavidGroup.Core.Swagger.Extensions;
+using DavidGroup.Core.Utilities.Extensions;
 using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Serilog;

@@ -7,11 +7,11 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>DavidStudio.Core.Essentials</PackageId>
+        <PackageId>DavidGroup.Core.Essentials</PackageId>
         <Version>1.0.0-develop.20</Version>
         <Authors>David Khachatryan</Authors>
-        <Company>David Studio</Company>
-        <Copyright>Copyright (c) 2025 David Khachatryan (David Studio)</Copyright>
+        <Company>David Group Solutions</Company>
+        <Copyright>Copyright (c) 2025 David Khachatryan (David Group Solutions)</Copyright>
         <Product>Essentials</Product>
         <Description>
             A productivity library that accelerates .NET project scaffolding by providing ready-to-use features for
@@ -22,19 +22,19 @@
         <PackageIcon>logo.png</PackageIcon>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-        <PackageProjectUrl>https://github.com/david-studio-core/Essentials</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/david-studio-core/Essentials</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/david-group-solutions/essentials</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/david-group-solutions/essentials</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageTags>DataIO Auth Swagger Pagination Results Utilities CRUD Repository Service Authentication Authorization Helpers Kit Instrumentation</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\DavidStudio.Core.DataIO\DavidStudio.Core.DataIO.csproj" PrivateAssets="all"/>
-        <ProjectReference Include="..\DavidStudio.Core.Auth\DavidStudio.Core.Auth.csproj" PrivateAssets="all"/>
-        <ProjectReference Include="..\DavidStudio.Core.Swagger\DavidStudio.Core.Swagger.csproj" PrivateAssets="all"/>
-        <ProjectReference Include="..\DavidStudio.Core.Pagination\DavidStudio.Core.Pagination.csproj" PrivateAssets="all"/>
-        <ProjectReference Include="..\DavidStudio.Core.Results\DavidStudio.Core.Results.csproj" PrivateAssets="all"/>
-        <ProjectReference Include="..\DavidStudio.Core.Utilities\DavidStudio.Core.Utilities.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.DataIO\DavidGroup.Core.DataIO.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.Auth\DavidGroup.Core.Auth.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.Swagger\DavidGroup.Core.Swagger.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.Pagination\DavidGroup.Core.Pagination.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.Results\DavidGroup.Core.Results.csproj" PrivateAssets="all"/>
+        <ProjectReference Include="..\DavidGroup.Core.Utilities\DavidGroup.Core.Utilities.csproj" PrivateAssets="all"/>
     </ItemGroup>
 
     <ItemGroup>

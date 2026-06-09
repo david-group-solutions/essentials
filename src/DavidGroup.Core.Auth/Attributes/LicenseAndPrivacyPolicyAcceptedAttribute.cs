@@ -1,18 +1,18 @@
-using DavidStudio.Core.Auth.Data;
-using DavidStudio.Core.Results;
+using DavidGroup.Core.Auth.Data;
+using DavidGroup.Core.Results;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace DavidStudio.Core.Auth.Attributes;
+namespace DavidGroup.Core.Auth.Attributes;
 
 [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
 public class LicenseAndPrivacyPolicyAcceptedAttribute(string licenceVersion, string privacyPolicyVersion) : Attribute, IResourceFilter
 {
     public void OnResourceExecuting(ResourceExecutingContext context)
     {
-        var licenseClaim = context.HttpContext.User.FindFirst(DavidStudioClaimTypes.LicenceVersion);
-        var privacyPolicyClaim = context.HttpContext.User.FindFirst(DavidStudioClaimTypes.PrivacyPolicyVersion);
+        var licenseClaim = context.HttpContext.User.FindFirst(DavidGroupClaimTypes.LicenceVersion);
+        var privacyPolicyClaim = context.HttpContext.User.FindFirst(DavidGroupClaimTypes.PrivacyPolicyVersion);
 
         if (licenseClaim is null || privacyPolicyClaim is null ||
             licenseClaim.Value != licenceVersion ||

@@ -2,7 +2,7 @@ using Elastic.Clients.Elasticsearch;
 using Elastic.Clients.Elasticsearch.Core.Search;
 using Elastic.Clients.Elasticsearch.QueryDsl;
 
-namespace DavidStudio.Core.DataIO.Helpers;
+namespace DavidGroup.Core.DataIO.Helpers;
 
 /// <summary>
 /// Provides helper methods for building common Elasticsearch queries.

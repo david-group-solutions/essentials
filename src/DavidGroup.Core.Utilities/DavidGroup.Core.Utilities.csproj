@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\DavidStudio.Core.Auth\DavidStudio.Core.Auth.csproj" />
+      <ProjectReference Include="..\DavidGroup.Core.Auth\DavidGroup.Core.Auth.csproj" />
     </ItemGroup>
 
 </Project>

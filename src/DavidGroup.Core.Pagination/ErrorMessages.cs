@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.Pagination;
+namespace DavidGroup.Core.Pagination;
 
 public static class ErrorMessages
 {

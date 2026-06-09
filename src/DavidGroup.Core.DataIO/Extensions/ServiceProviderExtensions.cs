@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DavidStudio.Core.DataIO.Extensions;
+namespace DavidGroup.Core.DataIO.Extensions;
 
 /// <summary>
 /// Provides extension methods for <see cref="IServiceProvider"/>.

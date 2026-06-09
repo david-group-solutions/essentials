@@ -1,7 +1,7 @@
 using System.Data;
 using Microsoft.Data.SqlClient;
 
-namespace DavidStudio.Core.DataIO.UnitOfWork.ADO.NET;
+namespace DavidGroup.Core.DataIO.UnitOfWork.ADO.NET;
 
 public class AdoUnitOfWork(string connectionString) : IAdoUnitOfWork, IDisposable, IAsyncDisposable
 {

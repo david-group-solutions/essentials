@@ -1,8 +1,8 @@
-﻿using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.Results;
-using DavidStudio.Core.Results.Generic;
+﻿using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.Results;
+using DavidGroup.Core.Results.Generic;
 
-namespace DavidStudio.Core.DataIO.Services;
+namespace DavidGroup.Core.DataIO.Services;
 
 /// <summary>
 /// Defines a base service interface for entity operations using DTO mapping for creation, reading and updating.

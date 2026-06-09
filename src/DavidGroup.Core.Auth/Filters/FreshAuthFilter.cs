@@ -1,9 +1,9 @@
-using DavidStudio.Core.Auth.Utilities;
+using DavidGroup.Core.Auth.Utilities;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace DavidStudio.Core.Auth.Filters;
+namespace DavidGroup.Core.Auth.Filters;
 
 public class FreshAuthFilter(long maxAgeInSeconds) : IResourceFilter
 {

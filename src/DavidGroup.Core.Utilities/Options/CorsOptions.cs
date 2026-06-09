@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Utilities.Options;
+﻿namespace DavidGroup.Core.Utilities.Options;
 
 public class ApplicationCorsOptions
 {

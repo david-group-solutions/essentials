@@ -2,7 +2,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace DavidStudio.Core.Auth.Swagger;
+namespace DavidGroup.Core.Auth.Swagger;
 
 /// <summary>
 /// Configures Swagger to include permissions information in the API documentation.

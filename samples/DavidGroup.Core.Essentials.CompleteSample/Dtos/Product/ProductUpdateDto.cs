@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Dtos.Product;
+namespace DavidGroup.Core.Essentials.CompleteSample.Dtos.Product;
 
 public record ProductUpdateDto
 {

@@ -1,4 +1,4 @@
-﻿namespace DavidStudio.Core.Swagger.Attributes;
+﻿namespace DavidGroup.Core.Swagger.Attributes;
 
 /// <summary>
 /// Annotates a controller with a Swagger sorting order that is used when generating 

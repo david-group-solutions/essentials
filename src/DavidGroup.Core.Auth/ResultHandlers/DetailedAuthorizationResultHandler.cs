@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authorization.Policy;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace DavidStudio.Core.Auth.ResultHandlers;
+namespace DavidGroup.Core.Auth.ResultHandlers;
 
 public sealed class DetailedAuthorizationResultHandler
     : IAuthorizationMiddlewareResultHandler

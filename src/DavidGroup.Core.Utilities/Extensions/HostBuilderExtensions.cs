@@ -1,7 +1,7 @@
 using Microsoft.Extensions.Hosting;
 using Serilog;
 
-namespace DavidStudio.Core.Utilities.Extensions;
+namespace DavidGroup.Core.Utilities.Extensions;
 
 public static class HostBuilderExtensions
 {

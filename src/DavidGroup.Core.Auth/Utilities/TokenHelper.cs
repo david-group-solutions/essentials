@@ -1,7 +1,7 @@
 using System.Security.Claims;
-using DavidStudio.Core.Auth.Data;
+using DavidGroup.Core.Auth.Data;
 
-namespace DavidStudio.Core.Auth.Utilities;
+namespace DavidGroup.Core.Auth.Utilities;
 
 public static class TokenHelper
 {
@@ -9,7 +9,7 @@ public static class TokenHelper
     {
         now ??= DateTimeOffset.UtcNow;
 
-        var authTimeStr = user.FindFirstValue(DavidStudioClaimTypes.AuthTime);
+        var authTimeStr = user.FindFirstValue(DavidGroupClaimTypes.AuthTime);
         if (authTimeStr is null || !long.TryParse(authTimeStr, out var autoTimeSeconds))
             return false;
 

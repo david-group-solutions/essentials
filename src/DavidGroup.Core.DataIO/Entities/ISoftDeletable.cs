@@ -1,4 +1,4 @@
-namespace DavidStudio.Core.DataIO.Entities;
+namespace DavidGroup.Core.DataIO.Entities;
 
 /// <summary>
 /// Marks an entity that supports soft deletion.

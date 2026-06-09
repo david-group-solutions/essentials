@@ -1,9 +1,9 @@
-using DavidStudio.Core.DataIO.Repositories;
-using DavidStudio.Core.Essentials.CompleteSample.Database;
-using DavidStudio.Core.Essentials.CompleteSample.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.DataIO.Repositories;
+using DavidGroup.Core.Essentials.CompleteSample.Database;
+using DavidGroup.Core.Essentials.CompleteSample.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Repositories;
+namespace DavidGroup.Core.Essentials.CompleteSample.Repositories;
 
 public class ProductsRepository(ApplicationDbContext context)
     : BaseRepository<Product, ProductId>(context),

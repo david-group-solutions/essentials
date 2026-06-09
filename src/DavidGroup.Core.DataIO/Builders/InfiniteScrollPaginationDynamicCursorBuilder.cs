@@ -1,9 +1,9 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Expressions;
-using DavidStudio.Core.Pagination.InfiniteScroll;
+using DavidGroup.Core.DataIO.Expressions;
+using DavidGroup.Core.Pagination.InfiniteScroll;
 using Microsoft.EntityFrameworkCore;
 
-namespace DavidStudio.Core.DataIO.Builders;
+namespace DavidGroup.Core.DataIO.Builders;
 
 /// <summary>
 /// Builds dynamic cursor objects for infinite scroll pagination based on

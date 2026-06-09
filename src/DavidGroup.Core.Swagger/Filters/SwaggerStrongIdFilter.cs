@@ -3,7 +3,7 @@ using System.Reflection;
 using Microsoft.OpenApi;
 using Swashbuckle.AspNetCore.SwaggerGen;
 
-namespace DavidStudio.Core.Swagger.Filters;
+namespace DavidGroup.Core.Swagger.Filters;
 
 /// <summary>
 /// A Swagger <see cref="ISchemaFilter"/> that customizes the OpenAPI schema representation for "strongly-typed" ID types.

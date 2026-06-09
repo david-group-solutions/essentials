@@ -1,14 +1,14 @@
 using System.Linq.Expressions;
-using DavidStudio.Core.DataIO.Services;
-using DavidStudio.Core.DataIO.UnitOfWork.EfCore;
-using DavidStudio.Core.Essentials.CompleteSample.Database;
-using DavidStudio.Core.Essentials.CompleteSample.Dtos.Manufacturer;
-using DavidStudio.Core.Essentials.CompleteSample.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.Mappers;
-using DavidStudio.Core.Essentials.CompleteSample.Repositories;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.DataIO.Services;
+using DavidGroup.Core.DataIO.UnitOfWork.EfCore;
+using DavidGroup.Core.Essentials.CompleteSample.Database;
+using DavidGroup.Core.Essentials.CompleteSample.Dtos.Manufacturer;
+using DavidGroup.Core.Essentials.CompleteSample.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.Mappers;
+using DavidGroup.Core.Essentials.CompleteSample.Repositories;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Services;
+namespace DavidGroup.Core.Essentials.CompleteSample.Services;
 
 public class ManufacturersService(IManufacturersRepository repository, IEfUnitOfWork<ApplicationDbContext> unitOfWork)
     : BaseService<ApplicationDbContext, IManufacturersRepository, Manufacturer, ManufacturerId, ManufacturerCreateDto,

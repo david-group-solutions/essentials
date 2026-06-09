@@ -1,10 +1,10 @@
-using DavidStudio.Core.Auth.StronglyTypedIds;
-using DavidStudio.Core.DataIO.Entities;
-using DavidStudio.Core.Essentials.CompleteSample.Models.Product;
-using DavidStudio.Core.Essentials.CompleteSample.StronglyTypedIds;
+using DavidGroup.Core.Auth.StronglyTypedIds;
+using DavidGroup.Core.DataIO.Entities;
+using DavidGroup.Core.Essentials.CompleteSample.Models.Product;
+using DavidGroup.Core.Essentials.CompleteSample.StronglyTypedIds;
 using MassTransit;
 
-namespace DavidStudio.Core.Essentials.CompleteSample.Entities;
+namespace DavidGroup.Core.Essentials.CompleteSample.Entities;
 
 public sealed class Product : Entity<ProductId>,
     ITimedEntity, ISoftDeletable,

@@ -2,7 +2,7 @@ using System.Globalization;
 using System.Numerics;
 using System.Text.Json;
 
-namespace DavidStudio.Core.Pagination.InfiniteScroll;
+namespace DavidGroup.Core.Pagination.InfiniteScroll;
 
 /// <summary>
 /// Provides helper methods to encode and decode <see cref="DynamicCursor"/> instances
